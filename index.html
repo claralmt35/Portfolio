@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio de Clara Lemétayer</title>
+</head>
+<body>
+    <!-- Header -->
+    <header 
+        <div class="entetecontainer">
+            <div class="profile-container">
+                <h1>Clara Lemétayer</h1>
+            </div>
+            <nav class="buttons">
+                <a href="https://www.linkedin.com/in/clara-lemétayer-b348341a4" target="_blank" class="button">LinkedIn</a>
+                <a href="https://github.com/claralmt35/portefolio/blob/main/c.png?raw=true" target="_blank" class="button">CV</a>
+                <a href="mailto:clara.lemetayer@wanadoo.fr" target="_blank" class="button">Me contacter</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="intro">
+          <h2>Bienvenue sur mon portfolio !</h2>
+              <p>Je m'appelle Clara Lemétayer et j'ai récemment achevé mon stage de fin d'étude à l'INRAE dans le cadre du master SIGAT (Systèmes d'Information Géographique et Analyse des Territoires).
+                Passionnée par la cartographie et le design graphique, je vous invite à découvrir quelques-unes de mes réalisations ci-dessous.</p>
+        </section>
+
+        <!-- Selection Tags for Work Categories -->
+        <div class="tag-selection">
+            <p class="docs__tag docs__tag--grey">Tous mes travaux</p>
+            <p class="docs__tag docs__tag--grey">Cartographies</p>
+            <p class="docs__tag docs__tag--grey">Infographies et posters</p>
+        </div>
+      
+ <!-- Modal for Image Display -->
+<div class="modal" id="imageModal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <img id="modalImage" src="" alt="Document Image">
+        <p id="modalText" class="modal-text"></p>
+    </div>
+</div>
+      
+        <!-- Container for dynamically displayed work -->
+        <div class="docs"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
