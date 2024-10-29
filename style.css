@@ -1,0 +1,173 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 65%;
+}
+
+body {
+    font-family: "Bahnschrift", "sans-serif"; 
+    font-size: 1.6rem;
+    padding: 5rem;
+    color: #444;
+}
+
+header {
+    background: #71c2b7 ;
+    background-size: 200% 200%;
+}
+
+p {
+    margin-bottom: 1.5rem; /* Espace de 1.5rem entre les paragraphes */
+    line-height: 1.6; /* Pour améliorer la lisibilité à l'intérieur des paragraphes */
+}
+
+h2 {
+    margin-bottom: 1.5rem; /* Espace de 1.5rem entre les paragraphes */
+    line-height: 1.6; /* Pour améliorer la lisibilité à l'intérieur des paragraphes */
+}
+
+.profile-container h1 {
+    font-family: 'Bebas Neue', sans-serif;
+  color: white;
+    font-size: 10rem; /* Ajustez la taille selon vos préférences */
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.entetecontainer {
+    display: flex;
+    justify-content: space-between; /* Positionne le nom à gauche et les boutons à droite */
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.button {
+    padding: 0.8rem 1.6rem;
+    background-color: #3ead9d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+    background-color: #2d877a;
+    transform: scale(1.05);
+}
+
+.intro {
+    margin: 2rem 0;
+    line-height: 1.6;
+}
+
+.tag-selection {
+    display: flex;
+    gap: 0.8rem;
+    margin: 2rem 0;
+}
+
+.docs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.docs__item {
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  text-align: center;
+}
+
+.docs__item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  cursor: pointer;
+}
+
+.docs__item h3 {
+    margin: 1rem 0; /* Ajoute un peu d'espace au-dessus et en dessous du titre */
+}
+.docs__tag {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.docs__tag--grey {
+    background-color: #3ead9d;
+    color: #fff;
+}
+
+/* Classe pour l'état actif */
+.docs__tag.active {
+    background-color: #2d877a; /* Couleur de fond pour l'état actif */
+    color: #fff; /* Couleur du texte pour l'état actif */
+}
+/* Modal Styles */
+.modal {
+    display: none; /* Masqué par défaut */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8); /* Fond semi-transparent */
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 2rem;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 0.5rem;
+}
+
+.modal-text {
+    margin-top: 1rem;
+    color: #444; 
+    font-size: 1.4rem; 
+    text-align: justify; 
+    padding: 0.5rem; 
+}
+
+.modal img {
+    width: 100%; /* S'adapte à la largeur du modal */
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
