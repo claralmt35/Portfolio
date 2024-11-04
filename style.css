@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    font-family: "Bahnschrift", "sans-serif"; 
+    font-family: "Arial", "sans-serif"; 
     font-size: 1.6rem;
     padding: 5rem;
     color: #444;
@@ -35,7 +35,7 @@ h2 {
 .profile-container h1 {
     font-family: 'Bebas Neue', sans-serif;
   color: white;
-    font-size: 10rem; /* Ajustez la taille selon vos préférences */
+    font-size: 10vw;
     letter-spacing: 1px;
     margin: 0;
 }
@@ -92,6 +92,7 @@ h2 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
   text-align: center;
+  font-size: 1.5rem;
 }
 
 .docs__item img {
@@ -170,4 +171,28 @@ h2 {
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+/* Responsive adjustments */
+@media (min-width: 600px) {
+    .profile-container h1 {
+        font-size: 7rem;
+    }
+    .entetecontainer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .docs {
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .profile-container h1 {
+        font-size: 4rem;
+    }
+    .button {
+        font-size: 1rem;
+        padding: 0.4rem 0.8rem;
+    }
 }
