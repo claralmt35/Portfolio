@@ -46,6 +46,36 @@ const docs = [
             "Poster sur la révolution du satellite SWOT et de KaRIn",
         url: "https://github.com/claralmt35/portefolio/blob/main/poster-montee.png?raw=true",
         tags: ["Infographies et posters"]
+    },
+      {
+        title: "Sur la route verte : Les escales Flixbus à travers l'Europe",
+        description:
+            "Emplacements de l'ensemble des destinations proposées par la compagnie Flixbus en Europe",
+        url: "https://github.com/claralmt35/portefolio/blob/main/1_point.png?raw=true",
+        tags: ["Cartographies"]
+    },    {
+        title: "Hydrographie française",
+        description:
+            "Ensemble des fleuves, rivières, ruisseaux et canaux de navigation en France",
+        url: "https://github.com/claralmt35/portefolio/blob/main/2-lignes.png?raw=true",
+        tags: ["Cartographies"]
+    },    {
+        title: "Marseille : vivre à deux pas de la place Castellane",
+        description:
+            "Distance pédestre depuis la place Castellane à Marseille représentée par des isochrones",
+        url: "https://github.com/claralmt35/portefolio/blob/main/3-polygone.png?raw=true",
+        tags: ["Cartographies"]
+    }, {
+          title: "L'indice d'émancipation politique des femmes dans le monde en 2023",
+        description:
+            "Mesure de l'influence des femmes dans la sphère politique par pays dans le monde",
+        url: "https://github.com/claralmt35/portefolio/blob/main/4-hexagone.png?raw=true",
+        tags: ["Cartographies"]
+    },   {      title: "Vendée Globe 2024",
+        description:
+            "Présentation du parcours de la 10 ème édition du Vendée Globe",
+        url: "https://github.com/claralmt35/portefolio/blob/main/5- trajet.png?raw=true",
+        tags: ["Cartographies"]
     }
 ];
 
