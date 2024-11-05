@@ -12,7 +12,7 @@ html {
 
 body {
     font-family: "Arial", "sans-serif"; 
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     padding: 5rem;
     color: #444;
 }
@@ -181,9 +181,9 @@ h2 {
 }
 
 /* Responsive adjustments */
-@media (min-width: 600px) {
+@media (min-width: 1024px) {
     .profile-container h1 {
-        font-size: 5rem;
+        font-size: 7rem;
     }
     .entetecontainer {
         flex-direction: row;
@@ -192,18 +192,34 @@ h2 {
     .docs {
         grid-template-cons: repeat(auto-fit, minmax(350px, 1fr));
     }
+    .docs__tag{
+        font-size: 1.6rem;
+        padding: 0.4rem 0.8rem;
+    }
+      .button {
+        font-size: 1.6rem;
+        padding: 0.4rem 0.8rem;
+    }
+      body {
+        padding: 3rem;
+    }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
     .profile-container h1 {
-        font-size: 4rem;
+        font-size: 5rem;
     }
     .button {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         padding: 0.4rem 0.8rem;
     }
   .docs__tag{
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         padding: 0.4rem 0.8rem;
+     text-align: center;
+    
+    }
+        body {
+        padding: 2rem;
     }
 }
