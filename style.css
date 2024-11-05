@@ -12,19 +12,25 @@ html {
 
 body {
     font-family: "Arial", "sans-serif"; 
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     padding: 5rem;
     color: #444;
 }
 
 header {
     background: #71c2b7 ;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
     background-size: 200% 200%;
 }
 
 p {
     margin-bottom: 1.5rem; /* Espace de 1.5rem entre les paragraphes */
     line-height: 1.6; /* Pour améliorer la lisibilité à l'intérieur des paragraphes */
+  text-align: justify;
 }
 
 h2 {
@@ -106,10 +112,11 @@ h2 {
     margin: 1rem 0; /* Ajoute un peu d'espace au-dessus et en dessous du titre */
 }
 .docs__tag {
-    padding: 0.5rem 1rem;
+    padding: 0.4rem 0.8rem;
     border-radius: 5px;
     cursor: pointer;
     font-size: 1.5rem;
+  text-align : center;
 }
 
 .docs__tag--grey {
@@ -176,14 +183,14 @@ h2 {
 /* Responsive adjustments */
 @media (min-width: 600px) {
     .profile-container h1 {
-        font-size: 7rem;
+        font-size: 5rem;
     }
     .entetecontainer {
         flex-direction: row;
         justify-content: space-between;
     }
     .docs {
-        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+        grid-template-cons: repeat(auto-fit, minmax(350px, 1fr));
     }
 }
 
@@ -192,7 +199,11 @@ h2 {
         font-size: 4rem;
     }
     .button {
-        font-size: 1rem;
+        font-size: 1.1rem;
+        padding: 0.4rem 0.8rem;
+    }
+  .docs__tag{
+        font-size: 1.1rem;
         padding: 0.4rem 0.8rem;
     }
 }
