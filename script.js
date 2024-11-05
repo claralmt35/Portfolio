@@ -3,28 +3,28 @@ const docs = [
         title: "Transmilenio, un réseau sécurisant",
         description:
             "Etude de l'offre de transport de Transmilenio à Bogotá et des données issues de l'application SafetiPin, permettant aux femmes d'évaluer la sécurité des lieux qu'elles visitent selon divers critères tels que la présence mixte, la présence d'agents de sécurité ou encore le niveau d'éclairage",
-        url: "https://github.com/claralmt35/portefolio/blob/main/GTFS.png?raw=true",
+        url: "https://github.com/claralmt35/portefolio/blob/main/GTFS.webp?raw=true",
         tags: ["Infographies et posters"]
     },
     {
         title: "Qu'en est-il de la démographie française ?",
         description:
             "Etude des taux de natalité et de mortalité des départements français au travers de l'anamorphose, réalisée avec Morgan ALLICE",
-        url: "https://github.com/claralmt35/portefolio/blob/main/Anamorphose.png?raw=true",
+        url: "https://github.com/claralmt35/portefolio/blob/main/Anamorphose.webp?raw=true",
         tags: ["Cartographies"]
     },
     {
         title: "Le temps de trajet domicile-travail influence t-il la qualité de l'air ?",
         description:
             "Analyse bivariée du temps moyen de trajet domicile-travail et de la pollution de l'air par les particules fines dans les comtés américains",
-        url: "https://github.com/claralmt35/portefolio/blob/main/carte_biv.png?raw=true",
+        url: "https://github.com/claralmt35/portefolio/blob/main/carte_biv.webp?raw=true",
         tags: ["Cartographies"]
     },
     {
         title: "La bière monte en pression",
         description:
             "Infographie sur la bière dans le monde, réalisée avec Jonas CONSTANT et Tristan LERAY",
-        url: "https://github.com/claralmt35/portefolio/blob/main/info-biere.jpg?raw=true",
+        url: "https://github.com/claralmt35/portefolio/blob/main/info-biere.webp?raw=true",
         tags: ["Infographies et posters"]
     },
     {
@@ -38,7 +38,7 @@ const docs = [
         title: "Plongée dans le Box Office en France",
         description:
             "Infographie sur le cinema en France",
-        url: "https://github.com/claralmt35/portefolio/blob/main/info-cine.png?raw=true",
+        url: "https://github.com/claralmt35/portefolio/blob/main/info-cine.webp?raw=true",
         tags: ["Infographies et posters"]
     },   {
         title: "La géomatique pour le suivi de la montée des eaux",
@@ -51,30 +51,30 @@ const docs = [
         title: "Sur la route verte : Les escales Flixbus à travers l'Europe",
         description:
             "Emplacements de l'ensemble des destinations proposées par la compagnie Flixbus en Europe",
-        url: "https://github.com/claralmt35/portefolio/blob/main/1_point.png?raw=true",
+        url: "https://github.com/claralmt35/portefolio/blob/main/1_point.webp?raw=true",
         tags: ["Cartographies"]
     },    {
         title: "Hydrographie française",
         description:
             "Ensemble des fleuves, rivières, ruisseaux et canaux de navigation en France",
-        url: "https://github.com/claralmt35/portefolio/blob/main/2-lignes.png?raw=true",
+        url: "https://github.com/claralmt35/portefolio/blob/main/2-lignes.webp?raw=true",
         tags: ["Cartographies"]
     },    {
         title: "Marseille : vivre à deux pas de la place Castellane",
         description:
             "Distance pédestre depuis la place Castellane à Marseille représentée par des isochrones",
-        url: "https://github.com/claralmt35/portefolio/blob/main/3-polygone.png?raw=true",
+        url: "https://github.com/claralmt35/portefolio/blob/main/3-polygone.webp?raw=true",
         tags: ["Cartographies"]
     }, {
           title: "L'indice d'émancipation politique des femmes dans le monde en 2023",
         description:
             "Mesure de l'influence des femmes dans la sphère politique par pays dans le monde",
-        url: "https://github.com/claralmt35/portefolio/blob/main/4-hexagone.png?raw=true",
+        url: "https://github.com/claralmt35/portefolio/blob/main/4-hexagone.webp?raw=true",
         tags: ["Cartographies"]
     },   {      title: "Vendée Globe 2024",
         description:
             "Présentation du parcours de la 10 ème édition du Vendée Globe",
-        url: "https://github.com/claralmt35/portefolio/blob/main/5- trajet.png?raw=true",
+        url: "https://github.com/claralmt35/portefolio/blob/main/5-trajet.webp?raw=true",
         tags: ["Cartographies"]
     }
 ];
