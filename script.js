@@ -76,6 +76,16 @@ const docs = [
             "Présentation du parcours de la 10 ème édition du Vendée Globe",
         url: "https://github.com/claralmt35/portefolio/blob/main/5-trajet.webp?raw=true",
         tags: ["Cartographies"]
+    },   {      title: "Les USA, un pays malade",
+        description:
+            "Evolution de la consommation des opioïdes aux Etats-Unis entre 1999 et 2022",
+        url: "https://github.com/claralmt35/portefolio/blob/main/12-timeandspace.webp?raw=true",
+        tags: ["Infographies et posters"]
+    },   {      title: "70's festivals",
+        description:
+            "Présentation des 49 festivals de musique créés dans les années 70 en France.",
+        url: "https://github.com/claralmt35/portefolio/blob/main/7-vintage.webp?raw=true",
+        tags: ["Cartographies"]
     }
 ];
 
