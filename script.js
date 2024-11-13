@@ -31,7 +31,7 @@ const docs = [
         title: "Répartition de la population rennaise",
         description:
             "Ventilation spatiale de la population rennaise à l'échelle du bâtiment",
-        url: "https://github.com/claralmt35/portefolio/blob/main/vent_spat_rennes.jpg?raw=true",
+        url: "https://github.com/claralmt35/portefolio/blob/main/vent.webp?raw=true",
         tags: ["Cartographies"]
     },
    {
@@ -44,7 +44,7 @@ const docs = [
         title: "La géomatique pour le suivi de la montée des eaux",
         description:
             "Poster sur la révolution du satellite SWOT et de KaRIn",
-        url: "https://github.com/claralmt35/portefolio/blob/main/poster-montee.png?raw=true",
+        url: "https://github.com/claralmt35/portefolio/blob/main/montee.webp?raw=true",
         tags: ["Infographies et posters"]
     },
       {
