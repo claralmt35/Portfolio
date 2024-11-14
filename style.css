@@ -84,6 +84,7 @@ h2 {
     display: flex;
     gap: 0.8rem;
     margin: 2rem 0;  
+   align-items: center;
 }
 
 .docs {
