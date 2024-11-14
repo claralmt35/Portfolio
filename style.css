@@ -113,13 +113,15 @@ h2 {
     margin: 2rem; /* Ajoute un peu d'espace au-dessus et en dessous du titre */
 }
 .docs__tag {
+    display: flex;
+    align-items: center; /* Centre le texte verticalement */
+    justify-content: center; /* Centre le texte horizontalement */
     padding: 0.4rem 0.8rem;
     border-radius: 5px;
     cursor: pointer;
     font-size: 1.5rem;
-  text-align : center;
-      align-items: center; /* Centre le texte verticalement */
-    justify-content: center;
+    text-align: center;
+    height: 100%; /* S'adapte à la hauteur de la boîte */
 }
 
 .docs__tag--grey {
