@@ -84,7 +84,6 @@ h2 {
     display: flex;
     gap: 0.8rem;
     margin: 2rem 0;  
-   align-items: center;
 }
 
 .docs {
@@ -114,13 +113,15 @@ h2 {
     margin: 2rem; /* Ajoute un peu d'espace au-dessus et en dessous du titre */
 }
 .docs__tag {
-    align-items: center; /* Centre le texte verticalement */
+        display: flex; /* Utilisation de Flexbox */
+  align-items: center; /* Centre le texte verticalement */
     justify-content: center; /* Centre le texte horizontalement */
     padding: 0.4rem 0.8rem;
     border-radius: 5px;
     cursor: pointer;
     font-size: 1.5rem;
     text-align: center;
+
 }
 
 .docs__tag--grey {
@@ -252,5 +253,8 @@ h2 {
     }
         body {
         padding: 2rem;
+    }
+    .docs {
+        grid-template-columns: 1fr; /* Une seule colonne sur les très petits écrans */
     }
 }
