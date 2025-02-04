@@ -86,6 +86,11 @@ const docs = [
             "Présentation des 49 festivals de musique créés dans les années 70 en France.",
         url: "https://github.com/claralmt35/portefolio/blob/main/7-vintage.webp?raw=true",
         tags: ["Cartographies"]
+    },  {      title: "L'horloge de l'Apocalypse",
+        description:
+            "Introduction au concept de l'horloge de l'Apocalypse ou horloge de la fin du monde.",
+        url: "https://github.com/claralmt35/portefolio/blob/main/horloge.png?raw=true",
+        tags: ["Infographies et posters"]
     }
 ];
 
