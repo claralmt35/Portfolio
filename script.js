@@ -91,7 +91,17 @@ const docs = [
             "Introduction au concept de l'horloge de l'Apocalypse ou horloge de la fin du monde.",
         url: "https://github.com/claralmt35/portefolio/blob/main/horloge.png?raw=true",
         tags: ["Infographies et posters"]
-    }
+    },
+   {      title: "Les mobilités pendulaires entre les préfectures régionales",
+        description:
+            "Présentation des trajets domiciles-travail entre les différentes préfectures régionales en 2020.",
+        url: "https://github.com/claralmt35/portefolio/blob/main/fluxpref.png?raw=true",
+        tags: ["Cartographies"]    },
+     {      title: "Les mobilités pendulaires entre les préfectures départementales",
+        description:
+            "Présentation des trajets domiciles-travail entre les différentes préfectures départementales en 2020.",
+        url: "https://github.com/claralmt35/portefolio/blob/main/fluxdep.png?raw=true",
+        tags: ["Cartographies"]    }
 ];
 
 
